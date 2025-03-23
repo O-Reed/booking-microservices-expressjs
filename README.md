@@ -1,20 +1,7 @@
-<div align="center" style="margin-bottom:20px">
-  <img src="assets/logo.png" alt="booking-microservices-express-js" />
-    <div align="center">
-                       <a href="https://github.com/meysamhadeli/booking-microservices-expressjs/actions/workflows/ci.yml"><img src="https://github.com/meysamhadeli/booking-microservices-expressjs/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-square"/></a>
-                       <a href="https://github.com/meysamhadeli/booking-microservices-express-js/blob/main/LICENSE"><img src="https://img.shields.io/github/license/meysamhadeli/booking-microservices-express-js?color=%234275f5&style=flat-square"/></a>
-    </div>
-</div>
 
 > **A practical and imaginary microservices for implementing an infrastructure for up and running distributed system with the latest technology and architecture like Vertical Slice Architecture, Event Driven Architecture, CQRS, Postgres, RabbitMQ and Express in Node.Js.** 🚀
 
 > 💡 **This project is not business-oriented and most of my focus was in the thechnical part for implement a distributed system with a sample project. In this project I implemented some concept in microservices like Messaging, Tracing, Event Driven Architecture, Vertical Slice Architecture, CQRS.**
-
-
-> **You can find `Nestjs` ported of this project in this link:**
-🔗 [booking-microservices-nestjs](https://github.com/meysamhadeli/booking-microservices-nestjs)
-
-<a href="https://gitpod.io/#https://github.com/meysamhadeli/booking-microservices-express"><img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg"/></a>
 
 # Table of Contents
 
@@ -64,8 +51,6 @@
 ## Plan
 
 > 🌀This project is a work in progress, new features will be added over time.🌀
-
-I will try to register future goals and additions in the [Issues](https://github.com/meysamhadeli/booking-microservices-express-js/issues) section of this repository.
 
 High-level plan is represented in the table
 
@@ -194,31 +179,3 @@ To `test` each microservice, run this command in the root directory of the micro
 ```bash
 npm test
 ```
-
-> ### Documentation Apis
-
-Each microservice has a `Swagger OpenAPI`. Browse to `/swagger` for a list of endpoints.
-
-As part of API testing, I created the [booking.rest](./booking.rest) file which can be run with the [REST Client](https://github.com/Huachao/vscode-restclient) `VSCode plugin`.
-
-# Support
-
-If you like my work, feel free to:
-
-- ⭐ this repository. And we will be happy together :)
-
-Thanks a bunch for supporting me!
-
-## Contribution
-
-Thanks to all [contributors](https://github.com/meysamhadeli/booking-microservices-express-js/graphs/contributors), you're awesome and this wouldn't be possible without you! The goal is to build a categorized, community-driven collection of very well-known resources.
-
-Please follow this [contribution guideline](./CONTRIBUTION.md) to submit a pull request or create the issue.
-
-## Project References & Credits
-
-- [https://github.com/jbogard/ContosoUniversityDotNetCore-Pages](https://github.com/jbogard/ContosoUniversityDotNetCore-Pages)
-- [https://github.com/hagopj13/node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate)
-
-## License
-This project is made available under the MIT license. See [LICENSE](https://github.com/meysamhadeli/booking-microservices-express-js/blob/main/LICENSE) for details.
